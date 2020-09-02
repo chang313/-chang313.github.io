@@ -11,6 +11,9 @@ body {
     text-align: left;
 }
 
+#hyper {
+    display : inline-block;
+}
 
 #resume {
     background-color: white;
