@@ -1,1 +1,159 @@
-Hello World
+<html> 
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Srisakdi:400,700|Indie+Flower|Tillana:400,500,700|Work+Sans:400,500|Source+Code+Pro|EB+Garamond|Gentium+Basic|Cormorant+Garamont|Caveat:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="resume.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title>Changhyeon's Resume</title>
+    </head>
+
+    <body>
+        <div id="resume">
+            <div id="top">
+            <h1> Changhyeon Park</h1>
+            
+            <ul> 
+                <li class="hori" ><h2 id="intro" contenteditable="true">KAIST CS Undergraduated Student </h2></li> 
+            </ul>
+
+            </div>
+            <hr/>
+            <div id="info" >
+                <ul>
+                    <li class="hori">
+                        <i class="icon far fa-envelope"></i>
+                        <p class="hori" id="email" contenteditable="true"> pch313@kaist.ac.kr </p>           
+                    </li>
+                    <li class="hori">
+                        <i  class="icon fas fa-mobile-alt"></i>
+                        <p class="hori" id="phone" contenteditable="true"> 010-3696-3551</p>
+                
+                    </li>
+                    <li class="hori">
+                        <i class="icon fas fa-map-marker-alt"></i>
+                        <p class="hori" id="address" contenteditable="true"> 238-8, Jungang-ro, Miryang-si, Gyeongsangnam-do, Republic of Korea</p>
+                    </li>
+                </ul>
+            </div>
+            <hr/>
+            
+            
+            <h2>Education</h2>
+                <ul id="education" contenteditable="true">
+
+                    
+                    <li>
+                        <h3> KAIST (Korea Advanced Institute of Science and Technology)</h3>
+                        <p> <div class="hori"> 2017.3 ~ </div> <div class="hori">Bachelor Student of School of Computing </div></p>
+                    </li>
+                    <li>
+                        <h3> KSA (Korea Science Academy)</h3>
+                        <p> 2014.2 ~ 2017.2 </p>
+
+                    </li>
+                    
+                </ul>
+            
+                <hr />  
+            
+            <h2> Experience</h2>
+            <ul id="experience" contenteditable="true">
+                <li>
+                    <h3> KAIST NMAIL lab intern </h3>
+                    <p> 2019.9 ~ 2019.12</p>
+                </li>
+                <li>
+                    <h3> KAIST Syssec lab individual study</h3>
+                    <p> 2019.6 ~ 2019.7</p>
+                </li>
+                <li>
+                    <h3> KAIST Startup club 'Kook' member </h3>
+                    <p> 2019.3 ~ 2019.12 </p>
+
+                </li>
+                <li>
+                    <h3> 2019 Spring CS374 HCI team project "Pozangzee"</h3>
+                    <p> Front-end development of email client for heavy user (https://github.com/chang313/PoZangZee)</p>
+                </li>
+                
+            </ul>
+            <hr />
+
+            <h2> Courses </h2>
+            <ul id = "courses" contenteditable="true">
+                <li>
+                    <h3> EE488 Database and Big data system</h3>
+                    <h3> CS341 Introduction to Computer Networks </h3>
+                    <h3> CS376 Machine Learning </h3>
+                    <h3> CS374 Introduction to HCI </h3>
+                    <h3> CS320 Programming Language </h3>
+                    <h3> CS206 Data Structure </h3>
+                </li>
+            </ul>
+            <hr />
+
+            <h2> Skills </h2>
+            <ul id = "skills" contenteditable="true">
+              
+                <li>
+                    <h3> <span>&#183;</span> Most experienced </h3>
+                    <p> : Python </p>
+                </li>
+                <li>
+                    <h3> <span>&#183;</span> Some experience </h3>
+                    <p> : html, CSS, Javascript, Racket, C, Java, </p>
+                </li>
+                <li>
+                    <h3> <span>&#183;</span> Dabbled in </h3>
+                    <p> : React </p>
+                </li>
+                
+            </ul>
+            
+            <hr />
+            <!--
+                <h2 id="versionId" contenteditable="true"> Enter your version Id</h2>
+            -->
+            
+
+            
+
+        </div>
+
+        <!--
+            <button id ="button" type="button"> Push </button> 
+
+        <div id="version">
+
+       
+        <table id="table">
+            <tr id="header">
+                <th> date </th>
+                <th> versionId</th>
+            </tr>
+            
+            
+        
+        </table>
+
+        <p id="versionId2" contenteditable="true"> enter versionId </p>
+        <button id ="button2" type="button"> load </button>
+        </div>
+
+        -->
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+
+        <!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+
+
+        
+
+        <script src="resume.js"></script>
+    </body>
+    
+</html>
